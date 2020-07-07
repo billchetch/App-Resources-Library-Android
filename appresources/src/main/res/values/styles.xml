@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application framework theme. -->
+    <style name="AppFramework.Dark.NoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/vdarkGrey</item>
+        <item name="android:buttonStyle">@style/AppFramework.Dark.NoActionBar.Button</item>
+        <item name="android:textViewStyle">@style/AppFramework.Dark.NoActionBar.Text</item>
+        <item name="android:itemBackground">@color/mediumnDarkGrey</item>
+    </style>
+
+    <!-- Button -->
+    <style name="AppFramework.Dark.NoActionBar.Button" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/lightGrey</item>
+    </style>
+
+    <style name="AppFramework.Dark.NoActionBar.Button.Light">
+        <item name="android:textColor">@color/darkGrey</item>
+        <item name="android:backgroundTint">@color/lightGrey</item>
+    </style>
+
+    <!-- Text -->
+    <style name="AppFramework.Dark.NoActionBar.Text">
+        <!-- Customize theme here. -->
+
+    </style>
+
+    <style name="AppFramework.Dark.NoActionBar.Text.Large">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="AppFramework.Dark.NoActionBar.Text.Title">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppFramework.Dark.NoActionBar.Text.Medium">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="AppFramework.Dark.NoActionBar.Text.Small">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Dialogs -->
+    <style name="AppFramework.Dark.NoActionBar.Dialog">
+        <item name="android:buttonStyle">@style/AppFramework.Dark.NoActionBar.Button.Light</item>
+    </style>
+
+    <style name="AppFramework.Dark.NoActionBar.Dialog.Layout">
+        <item name="android:padding">@dimen/dialog.layout.padding</item>
+        <item name="android:background">@drawable/dialog_background</item>
+    </style>
+
+
+    <!-- Error Dialog -->
+    <style name="AppFramework.Dark.NoActionBar.Dialog.Error">
+        <!-- Customize your theme here. -->
+
+    </style>
+
+    <style name="AppFramework.Dark.NoActionBar.Dialog.Layout.Error">
+        <item name="android:background">@drawable/dialog_background_error</item>
+    </style>
+
+
+    <!-- Toolbars -->
+    <style name="AppFramework.Dark.NoActionBar.ActionBar">
+
+    </style>
+
+    <style name="AppFramework.Dark.NoActionBar.ActionBar.Toolbar">
+        <item name="android:background">@color/darkGrey</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/actionbar.height</item>
+        <item name="contentInsetStart">@dimen/actionbar.margin.left</item>
+    </style>
+
+    <style name="AppFramework.Dark.NoActionBar.ActionBar.Logo">
+        <item name="android:src">@drawable/ic_logo_bulan_baru_white</item>
+    </style>
+
+    <style name="AppFramework.Dark.NoActionBar.ActionBar.AppTitle" parent="AppFramework.Dark.NoActionBar.Text.Medium">
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppFramework.Dark.NoActionBar.ActionBar.Layout">
+
+    </style>
+</resources>

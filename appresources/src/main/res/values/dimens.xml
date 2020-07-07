@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="actionbar.margin.left">8dp</dimen>
+    <dimen name="actionbar.height">48dp</dimen>
+    <dimen name="dialog.layout.padding">28dp</dimen>
+</resources>

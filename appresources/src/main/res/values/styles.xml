@@ -10,7 +10,6 @@
         <item name="android:colorBackground">@color/vdarkGrey</item>
         <item name="android:buttonStyle">@style/AppFramework.Dark.NoActionBar.Button</item>
         <item name="android:textViewStyle">@style/AppFramework.Dark.NoActionBar.Text</item>
-        <item name="android:itemBackground">@color/mediumnDarkGrey</item>
     </style>
 
     <!-- Button -->

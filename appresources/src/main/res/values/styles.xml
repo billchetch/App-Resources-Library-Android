@@ -7,7 +7,7 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:colorBackground">@color/vdarkGrey</item>
+        <item name="android:colorBackground">@color/black</item>
         <item name="android:buttonStyle">@style/AppFramework.Dark.NoActionBar.Button</item>
         <item name="android:textViewStyle">@style/AppFramework.Dark.NoActionBar.Text</item>
     </style>

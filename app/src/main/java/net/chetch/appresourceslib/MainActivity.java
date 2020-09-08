@@ -1,10 +1,12 @@
 package net.chetch.appresourceslib;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.widget.Toolbar;
+import android.text.method.ScrollingMovementMethod;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,6 +17,9 @@ public class MainActivity extends AppCompatActivity {
 
         Toolbar myToolbar = (Toolbar)findViewById(R.id.actionbar);
         setSupportActionBar(myToolbar);
+
+        TextView tv = findViewById(R.id.textView);
+        tv.setMovementMethod(new ScrollingMovementMethod());
     }
 
     @Override

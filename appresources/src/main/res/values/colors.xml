@@ -23,6 +23,6 @@
     <color name="age5">#e40101</color>
     <color name="errorRed">#e40101</color>
     <color name="darkRed">#510303</color>
-    <color name="warningYellow">#FFC107</color>
+    <color name="warningYellow">#FF9800</color>
     <color name="warningOrange">#FF5722</color>
 </resources>

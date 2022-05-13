@@ -66,6 +66,16 @@
         <item name="android:background">@drawable/dialog_background_error</item>
     </style>
 
+    <!-- Warning Dialog -->
+    <style name="AppFramework.Dark.NoActionBar.Dialog.Warning">
+        <!-- Customize your theme here. -->
+
+    </style>
+
+    <style name="AppFramework.Dark.NoActionBar.Dialog.Layout.Warning">
+        <item name="android:background">@drawable/dialog_background_warning</item>
+    </style>
+
 
     <!-- Toolbars -->
     <style name="AppFramework.Dark.NoActionBar.ActionBar">
@@ -80,7 +90,7 @@
     </style>
 
     <style name="AppFramework.Dark.NoActionBar.ActionBar.Logo">
-        <item name="android:src">@drawable/ic_logo_bulan_baru_white</item>
+        <item name="android:src">@drawable/ic_logo_bulan_baru_white_small</item>
     </style>
 
     <style name="AppFramework.Dark.NoActionBar.ActionBar.AppTitle" parent="AppFramework.Dark.NoActionBar.Text.Medium">

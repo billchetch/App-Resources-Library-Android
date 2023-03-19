@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar myToolbar = (Toolbar)findViewById(R.id.actionbar);
         setSupportActionBar(myToolbar);
 
-        TextView tv = findViewById(R.id.textView);
+        TextView tv = findViewById(R.id.appVersion);
         tv.setMovementMethod(new ScrollingMovementMethod());
     }
 

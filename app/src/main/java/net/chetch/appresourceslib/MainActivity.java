@@ -1,14 +1,18 @@
 package net.chetch.appresourceslib;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.app.Notification;
 import android.os.Bundle;
 import androidx.appcompat.widget.Toolbar;
 import android.text.method.ScrollingMovementMethod;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +24,11 @@ public class MainActivity extends AppCompatActivity {
 
         TextView tv = findViewById(R.id.appVersion);
         tv.setMovementMethod(new ScrollingMovementMethod());
+
+        Button btn = findViewById(R.id.button);
+        btn.setOnClickListener(this);
+
+
     }
 
     @Override
@@ -28,5 +37,10 @@ public class MainActivity extends AppCompatActivity {
         inflater.inflate(R.menu.options_menu, menu);
 
         return true;
+    }
+
+    @Override
+    public void onClick(View view) {
+
     }
 }

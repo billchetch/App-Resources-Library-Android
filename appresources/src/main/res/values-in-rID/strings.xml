@@ -1,4 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">App Sumber</string>
+    <string name="lang.ok">OK</string>
+    <string name="lang.cancel">Batal</string>
+    <string name="lang.confirm">Pasti</string>
+    <string name="lang.close">Tutup</string>
+    <string name="lang.clear">Hapus</string>
+    <string name="lang.test">Tes</string>
+    <string name="lang.error">Error</string>
+    <string name="lang.warning">Perhatian</string>
+    <string name="lang.help">Bantuan</string>
+    <string name="lang.about">About</string>
+    <string name="lang.settings">Setelan</string>
+    <string name="lang.change">Rubah</string>
+    <string name="dialog.warning.title">@string/lang.warning</string>
+    <string name="dialog.confirmation.title">@string/lang.confirm</string>
+    <string name="menus.options_menu.settings">@string/lang.settings</string>
+    <string name="menus.options_menu.about">@string/lang.about</string>
+    <string name="menus.options_menu.help">@string/lang.help</string>
+    <string name="button.test.open_error_dialog">Open Error Dialog</string>
+    <string name="button.change">@string/lang.change</string>
+    <string name="button.ok">@string/lang.ok</string>
+    <string name="button.cancel">@string/lang.cancel</string>
+    <string name="button.confirm">@string/lang.confirm</string>
+    <string name="button.close">@string/lang.close</string>
+    <string name="button.clear">@string/lang.clear</string>
+    <string name="dialog.error.title">@string/lang.error</string>
 </resources>

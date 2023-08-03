@@ -2,7 +2,6 @@
     <string name="app_name">App Resources</string>
     <string name="app_version" translatable="false">1.0</string>
     <string name="resource_lib_version" translatable="false">1.0</string>
-    <string name="string.test">@string/lang.hello_world</string>
     <string name="lang.ok">OK</string>
     <string name="lang.cancel">Cancel</string>
     <string name="lang.confirm">Confirm</string>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AppResources</string>
+    <string name="app_name">App Resources</string>
     <string name="app_version" translatable="false">1.0</string>
     <string name="resource_lib_version" translatable="false">1.0</string>
     <string name="string.test">@string/lang.hello_world</string>

@@ -27,6 +27,5 @@
     <string name="button.close">@string/lang.close</string>
     <string name="button.clear">@string/lang.clear</string>
     <string name="symbol.degree" translatable="false">\u00B0</string>
-    <string name="lang.hello_world">Hello world!</string>
     <string name="dialog.error.title">@string/lang.error</string>
 </resources>

@@ -18,6 +18,7 @@
             style="@style/AppFramework.Dark.NoActionBar.ActionBar.Logo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:src="@drawable/ic_logo_bulan_baru_white_small"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
